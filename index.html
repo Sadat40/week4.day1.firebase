@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <a id="blogLink" href="createBlog.html">Click Here to Create Your Blog</a> -->
+
+    <form>
+      <h1>Create Your Blog</h1>
+        <h4>Add Title</h4>
+        <input id="titleInput" type="text" />
+        <h4>Add Text</h4>
+        <input id="textInput" type="text" />
+        <h4>Add Username</h4>
+        <input id="userInput" type="text" />
+        <button id="submitBtn">Submit</button>
+    </form>
+
+    <div id="itemsContainer">
+
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
